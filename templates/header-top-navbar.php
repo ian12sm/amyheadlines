@@ -1,4 +1,5 @@
 <header class="banner navbar navbar-default navbar-static-top" role="banner">
+  <img src="/wp-content/themes/amyheadlines/assets/img/header.jpg" class="img-responsive header-img" />
   <div class="container">
     <div class="navbar-header">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
