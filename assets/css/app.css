@@ -23,6 +23,13 @@ border: transparent;
 .banner>.container {
 border-bottom: #e7e7e7 solid 1px;
 }
+.header-img {
+width: 100%;
+margin: 0px auto;
+}
+.navbar-nav {
+width: 100%;
+}
 
 /* ==========================================================================
    Content
@@ -95,7 +102,11 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 /* No media query since this is the default in Bootstrap */
 
 /* Small devices (tablets, 768px and up) */
-@media (min-width: @screen-sm) { }
+@media (min-width: @screen-sm) {
+.navbar-nav>li {
+margin-right: 3%;
+}
+ }
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: @screen-md) { }
