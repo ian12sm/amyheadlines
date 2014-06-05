@@ -32,7 +32,13 @@ margin: 0px auto;
 .navbar-nav {
 width: 100%;
 }
-
+.navbar-nav a {
+   transition: color .5s ease;
+font-size: 20px;
+}
+.navbar-nav a:hover{
+   color: #000;
+}
 /* ==========================================================================
    Content
    ========================================================================== */
@@ -108,7 +114,9 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 .navbar-nav>li {
 margin-right: 3%;
 }
-
+.navbar-nav a {
+font-size: 20px;
+}
  }
 
 /* Medium devices (desktops, 992px and up) */
