@@ -1,7 +1,7 @@
 <article <?php post_class(); ?>>
   <header>
     <h2 class="entry-title"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h2>
-    <?php $terms = wp_get_post_terms( $post_id, $taxonomy, $args ); echo $terms; ?>
+    <?php the_tags(); ?>
   </header>
   <div class="post-img">
   	<?php the_post_thumbnail(large); ?> 
