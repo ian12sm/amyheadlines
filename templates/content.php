@@ -11,6 +11,12 @@
   	<?php the_post_thumbnail(large); ?> 
   </div>
   <div class="entry-summary">
-    <?php the_excerpt(); ?>
+  <?php if (is_post_type_hierarchical( 'featured' ) ) {
+  	the_content();
+  }
+  else{
+	the_excerpt();
+	}
+	?>
   </div>
 </article>
