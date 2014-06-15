@@ -11,7 +11,7 @@
   	<?php the_post_thumbnail(large); ?> 
   </div>
   <div class="entry-summary">
-  <?php if (is_post_type_hierarchical( 'featured' ) ) {
+  <?php if (has_term( 'featured' ) ) {
   	the_content();
   }
   else{
