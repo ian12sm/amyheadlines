@@ -13,11 +13,9 @@
   <div class="entry-summary">
   <?php if ( in_category( 'featured' ) ) {
   	the_content();
-  	echo "is heirarchical";
   }
   else{
 	the_excerpt();
-	echo "is not heirarchical";
 	}
 	?>
   </div>
