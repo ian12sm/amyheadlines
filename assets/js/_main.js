@@ -25,7 +25,7 @@ var Roots = {
       // JavaScript to be fired on all pages
       //make navbar float at top
       $win = $(window),
-    $filter = $('.navbar'),
+    $filter = $('.navbar-nav'),
     $filterSpacer = $('<div />', {
       "class": "filter-drop-spacer",
       "height": $filter.outerHeight()
