@@ -13,9 +13,11 @@
   <div class="entry-summary">
   <?php if ( is_post_type_hierarchical( 'featured' ) ) {
   	the_content();
+  	echo "is heirarchical";
   }
   else{
 	the_excerpt();
+	echo "is not heirarchical";
 	}
 	?>
   </div>
