@@ -32,7 +32,7 @@ margin: 0px auto;
 .navbar-nav {
 width: 100%;
 background-color: transparent;
-transition: background-color .5s ease;
+transition: background-color 1.5s ease;
 }
 .navbar-nav a {
    transition: color .5s ease;
