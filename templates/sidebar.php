@@ -1,5 +1,9 @@
 <?php dynamic_sidebar('sidebar-primary'); ?>
+<h2>Related Posts</h2>
 <?php 
+	$post_id = get_the_ID();
+	$category = get_the_category($post_id);
+	echo "<h3>" . $category ."</h3>";
 	$args = array(
 	'posts_per_page'   => 5,
 	'offset'           => 0,
