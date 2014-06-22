@@ -49,7 +49,7 @@ font-size: 20px;
 .affix .navbar-nav{
    background-color: rgba(214,214,214, .5);
 }
-.affix .navbar-nav:hover{
+.affix .navbar-nav > li:hover{
    transition: background-color .5s ease;;
   background-color:  rgba(214,214,214, .7)
 }
