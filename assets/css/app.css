@@ -47,7 +47,10 @@ font-size: 20px;
    margin-top: 33px;
 }
 .affix .navbar-nav{
-   background-color: rgba(214,214,214, .4);
+   background-color: rgba(214,214,214, .5);
+}
+.affix .navbar-nav:hover{
+  background-color:  rgba(214,214,214, .7)
 }
 /* ==========================================================================
    Content
