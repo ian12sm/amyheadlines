@@ -4,7 +4,7 @@
 	$post_id = get_the_ID();
 	$category = get_the_category($post_id);
 	foreach((get_the_category()) as $category)
-		echo "<h3>" . $category[0]->cat_name ."</h3>";
+		echo "<h3>" . $category->cat_name ."</h3>";
 		$args = array(
 		'posts_per_page'   => 5,
 		'offset'           => 0,
