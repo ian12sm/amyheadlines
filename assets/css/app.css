@@ -50,6 +50,7 @@ font-size: 20px;
    background-color: rgba(214,214,214, .5);
 }
 .affix .navbar-nav:hover{
+   transition: background-color .5s ease;;
   background-color:  rgba(214,214,214, .7)
 }
 /* ==========================================================================
