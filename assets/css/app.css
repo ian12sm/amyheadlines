@@ -126,6 +126,9 @@ margin-right: 3%;
 .navbar-nav a {
 font-size: 20px;
 }
+.navbar-header{
+   display: none;
+}
  }
 
 /* Medium devices (desktops, 992px and up) */
