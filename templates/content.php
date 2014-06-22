@@ -8,7 +8,7 @@
     ?></h4>
   </header>
   <div class="post-img">
-  	<?php the_post_thumbnail(large); ?> 
+  	<?php the_post_thumbnail(large, array( 'class' => "img-responsive attachment-post-thumbnail")); ?> 
   </div>
   <div class="entry-summary">
   <?php if ( in_category( 'featured' ) ) {
