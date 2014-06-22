@@ -15,4 +15,10 @@
 	'post_parent'      => '',
 	'post_status'      => 'publish',
 	'suppress_filters' => true );
-	$posts_array = get_posts( $args ); ?>
+	$posts_array = get_posts( $args ); 
+	foreach ( $posts_array as $post ) : setup_postdata( $post ); ?>
+	<li>
+		<a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
+	</li>
+<?php endforeach; 
+wp_reset_postdata();?>
