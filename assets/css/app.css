@@ -85,6 +85,9 @@ text-transform: uppercase;
 font-weight: 600;
 font-family: 'Open Sans Condensed', sans-serif;
 }
+.affix #searchform {
+display: none;
+}
 /* ==========================================================================
    Content
    ========================================================================== */
