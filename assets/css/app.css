@@ -70,7 +70,7 @@ font-size: 20px;
    background-color: rgba(214,214,214, .5);
 }
 .affix .navbar-nav > li:hover{
-   transition: background-color .5s ease;;
+   transition: background-color .5s ease;
   background-color:  rgba(214,214,214, .7)
 }
 form#searchform {
@@ -87,7 +87,9 @@ font-weight: 600;
 font-family: 'Open Sans Condensed', sans-serif;
 }
 .affix #searchform {
+   transition: background-color .5s ease;;
 display: none;
+background-color:  rgba(214,214,214, .7)
 }
 /* ==========================================================================
    Content
