@@ -66,6 +66,7 @@ font-size: 20px;
    margin-top: 33px;
 }
 .affix .navbar-nav{
+   width: 100%;
    background-color: rgba(214,214,214, .5);
 }
 .affix .navbar-nav > li:hover{
