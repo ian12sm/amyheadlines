@@ -120,6 +120,11 @@ right: 20px;
 background: rgba(255,255,255,0.3);
 font-size: 18px;
 color: #03a7b1;
+background-color: rgba(214,214,214, .5);
+}
+
+#social i {
+font-size: 24px;
 }
 
 #social li {margin:0px; padding: 0px; list-style:none; display: block; float:left;}
