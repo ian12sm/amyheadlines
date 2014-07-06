@@ -65,7 +65,7 @@ font-size: 20px;
    margin-left: 6%;
    margin-top: 33px;
 }
-.affix .navbar-nav{
+.affix .navbar-nav, .affix .navbar-collapse{
    width: 100%;
    background-color: rgba(214,214,214, .5);
 }
