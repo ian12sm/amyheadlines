@@ -110,7 +110,19 @@ margin-right: 10px;
 #social li {margin:0px; padding: 0px list-style:none; display: block; float:left;}
 #social li a {padding: 10px;}
 
-
+#social ul {
+margin: 0px;
+padding: 15px;
+list-style: none;
+position: fixed;
+bottom: 20px;
+right: 20px;
+background: rgba(255,255,255,0.3);
+font-size: 18px;
+color: #03a7b1;
+}
+#social li {margin:0px; padding: 0px; list-style:none; display: block; float:left;}
+#social li a {padding: 10px; margin-right:15px;}
 
 /* ==========================================================================
    WordPress Generated Classes
