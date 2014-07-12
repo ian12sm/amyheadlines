@@ -167,6 +167,11 @@ font-size: 24px;
 #social li {margin:0px; padding: 0px; list-style:none; display: block; float:left;}
 #social li a {padding: 10px; margin-right:15px;}
 
+.credits {
+font-size: 14px;
+text-align: center;
+}
+
 /* ==========================================================================
    WordPress Generated Classes
    See: http://codex.wordpress.org/CSS#WordPress_Generated_Classes
