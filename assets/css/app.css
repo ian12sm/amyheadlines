@@ -176,7 +176,10 @@ font-size: 18px;
 color: #03a7b1;
 background-color: rgba(214,214,214, .5);
 }
-
+#social-may{
+   width: 11%;
+   margin: 0 auto;
+}
 #social i {
 font-size: 24px;
 }
