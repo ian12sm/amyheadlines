@@ -104,8 +104,25 @@ list-style: none;
 display: inline-block;
 margin-right: 10px;
 }
-
-
+/* ==========================================================================
+   Maintenance
+   ========================================================================== */
+.maintenance h1, .maintenance h3, .maintenance p{
+   text-align: center;
+}
+#social-may ul {
+margin: 0px;
+padding: 15px;
+height: 50px;
+list-style: none;
+/* position: fixed; */
+/* bottom: 20px; */
+/* right: 20px; */
+/* background: rgba(255,255,255,0.3); */
+font-size: 18px;
+color: #03a7b1;
+background-color: rgba(214,214,214, .5);
+}
 /* ==========================================================================
    Primary Content
    ========================================================================== */
