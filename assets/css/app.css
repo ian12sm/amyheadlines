@@ -107,7 +107,7 @@ margin-right: 10px;
 /* ==========================================================================
    Maintenance
    ========================================================================== */
-.maintenance h1, .maintenance h3, .maintenance p{
+.page-template-template-maintenance-php h1, .page-template-template-maintenance-php h3, .page-template-template-maintenance-php p{
    text-align: center;
 }
 #social-may ul {
@@ -194,7 +194,7 @@ margin-right: 26px!important;
 font-size: 14px;
 text-align: center;
 }
-.maintenance #menu-social-navigation {
+.page-template-template-maintenance-php #menu-social-navigation {
 display: none;
 }
 /* ==========================================================================
