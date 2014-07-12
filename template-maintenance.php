@@ -4,4 +4,4 @@ Template Name: Maintenence Template
 */
 ?>
 
-<?php get_template_part('templates/content', 'page-maintenence'); ?>
+<?php get_template_part('templates/content', 'page-maintenance'); ?>
