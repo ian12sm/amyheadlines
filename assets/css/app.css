@@ -194,7 +194,9 @@ margin-right: 26px!important;
 font-size: 14px;
 text-align: center;
 }
-
+.maintenance #menu-social-navigation {
+display: none;
+}
 /* ==========================================================================
    WordPress Generated Classes
    See: http://codex.wordpress.org/CSS#WordPress_Generated_Classes
