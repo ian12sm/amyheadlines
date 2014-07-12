@@ -110,10 +110,11 @@ margin-right: 10px;
 .page-template-template-maintenance-php h1, .page-template-template-maintenance-php h3, .page-template-template-maintenance-php p{
    text-align: center;
 }
+
 #social-may ul {
 margin: 0px;
 padding: 15px;
-height: 50px;
+height: 75px;
 list-style: none;
 /* position: fixed; */
 /* bottom: 20px; */
@@ -122,6 +123,7 @@ list-style: none;
 font-size: 18px;
 color: #03a7b1;
 background-color: rgba(214,214,214, .5);
+width: 60px;
 }
 /* ==========================================================================
    Primary Content
@@ -230,7 +232,12 @@ font-size: 20px;
  }
 
 /* Medium devices (desktops, 992px and up) */
-@media (min-width: 992px) { }
+@media (min-width: 992px) {
+#social-may ul {
+margin: 0px;
+height: 50px;
+}
+ }
 
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) { }
