@@ -44,8 +44,7 @@ border: transparent;
 border-bottom: #e7e7e7 solid 1px;
 }
 .header-img {
-width: 40%;
-margin: 0px auto;
+width: 100%;
 }
 .navbar-nav {
 width: 76%;
@@ -226,6 +225,10 @@ font-size: 20px;
 }
 .navbar-header{
    display: none;
+}
+.header-img {
+width: 40%;
+margin: 0px auto;
 }
  }
 
