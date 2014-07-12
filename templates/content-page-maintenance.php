@@ -1,3 +1,4 @@
+<img src="/wp-content/themes/amyheadlines/assets/img/header.jpg" class="img-responsive header-img" />
 <h1>New website coming soon!</h1>
 <h3>In the meantime reach out to us on social media!</h3>
 <div id='social-may'>
