@@ -6,7 +6,7 @@
 	foreach((get_the_category()) as $category)
 		echo "<h3>" . $category->cat_name ."</h3>";
 		$args = array(
-		'posts_per_page'   => 5,
+		'posts_per_page'   => 3,
 		'offset'           => 0,
 		'category'         => '$category',
 		'orderby'          => 'post_date',
