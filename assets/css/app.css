@@ -249,6 +249,8 @@ font-size: 64px;
 }
 .float-right{
    float: right;
+   margin-left: 25px;
+
 }
 
  }
