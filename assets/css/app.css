@@ -56,6 +56,9 @@ transition: background-color 1.5s ease;
    transition: color .5s ease;
 font-size: 20px;
 }
+nav{
+   background-color: rgba(214,214,214, .5);
+}
 .navbar-nav a:hover{
    color: #000;
 }
