@@ -240,6 +240,10 @@ font-size: 64px;
 .margin-top{
    margin-top: 125px;
 }
+.float-right{
+   float: right;
+}
+
  }
 
 /* Medium devices (desktops, 992px and up) */
