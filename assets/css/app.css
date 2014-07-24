@@ -71,7 +71,7 @@ font-size: 20px;
 .affix .navbar-nav{
    width: 78%;
    background-color: rgba(214,214,214, .5);
-   margin-bottom: 0 auto;
+   margin: 0 auto;
 }
  .affix .navbar-collapse{
    width: 100%;
