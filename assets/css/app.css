@@ -234,7 +234,7 @@ font-size: 20px;
    display: none;
 }
 .header-img {
-width: 40%;
+width: 20%;
 margin: 0px auto;
 }
 #social-may{
@@ -250,7 +250,6 @@ font-size: 64px;
 .float-right{
    float: right;
    margin-left: 25px;
-
 }
 
  }
