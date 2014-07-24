@@ -95,7 +95,6 @@ font-family: 'Open Sans Condensed', sans-serif;
 }
 .affix #searchform {
    transition: background-color .5s ease;;
-display: none;
 background-color:  rgba(214,214,214, .7)
 }
 /* ==========================================================================
