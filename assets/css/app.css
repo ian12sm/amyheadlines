@@ -31,7 +31,12 @@ font-size: 26px;
 letter-spacing: 3px;
 word-spacing: 5px;
 }
-
+.story h1{
+   font-family: 'lush';
+}
+.story p{
+   font-family: 'brioso-pro';
+}
 /* ==========================================================================
    Header
    ========================================================================== */
