@@ -232,9 +232,7 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 .navbar-nav>li {
 margin-right: 3%;
 }
-.navbar-nav a {
-font-size: 20px;
-}
+
 .navbar-header{
    display: none;
 }
@@ -256,13 +254,23 @@ font-size: 64px;
    float: right;
    margin-left: 25px;
 }
-
+.navbar-nav {
+width: 80%;
+}
+.nav>li>a {
+padding: 10px 5px;
+font-size: 16px;
+}
  }
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
 #social-may ul {
 margin: 0 auto;
+}
+.navbar-nav a {
+font-size: 20px;
+padding: 10px 15px;
 }
  }
 
