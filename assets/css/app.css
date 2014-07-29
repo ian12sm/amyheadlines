@@ -261,6 +261,12 @@ width: 80%;
 padding: 10px 5px;
 font-size: 16px;
 }
+form#searchform {
+width: 20%;
+}
+input#s {
+width: 45%;
+}
  }
 
 /* Medium devices (desktops, 992px and up) */
@@ -271,6 +277,12 @@ margin: 0 auto;
 .nav>li>a {
 font-size: 20px;
 padding: 10px 15px;
+}
+form#searchform {
+width: initial;
+}
+input#s {
+width: initial;
 }
  }
 
