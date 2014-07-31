@@ -25,6 +25,9 @@ var Roots = {
       // JavaScript to be fired on all pages
       //make navbar float at top
       console.log('common functions firing');
+      $('.navbar-toggle').onClick(function(){
+        $('.navbar-collapse').collapse();
+      });
     }
   },
   // Home page
