@@ -37,7 +37,7 @@ word-spacing: 5px;
 .story p{
    font-family: 'brioso-pro';
 }
-img{
+img.size-full{
    width: 100%;
    height: auto;
 }
