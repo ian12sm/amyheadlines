@@ -76,6 +76,7 @@ font-size: 20px;
    top: 0;
    margin-left: 6%;
    margin-top: 33px;
+   width: 100%;
 }
 .affix .navbar-nav{
    width: 78%;
@@ -271,6 +272,8 @@ width: 20%;
 input#s {
 width: 45%;
 }
+.affix{
+   width: initial;
  }
 
 /* Medium devices (desktops, 992px and up) */
