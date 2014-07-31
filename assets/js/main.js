@@ -32,7 +32,7 @@ var Roots = {
       //affix nav stuff
       function affixnav(){
 
-$('#menu-story-2').affix({
+$('.affix-wrapper').affix({
       offset: {
         top: function(){
           if ($(window).width() <= 768){ return 0};
