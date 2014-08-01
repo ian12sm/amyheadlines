@@ -112,10 +112,12 @@ font-family: 'Open Sans Condensed', sans-serif;
 
 .post-categories {
 list-style: none;
+padding-left: 0px;
 }
 .post-categories>li {
 display: inline-block;
 margin-right: 10px;
+background-color: rgba(214,214,214, .9);
 }
 /* ==========================================================================
    Maintenance
