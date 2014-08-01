@@ -82,9 +82,9 @@ font-size: 20px;
    width: 78%;
    margin: 0 auto;
 }
- .affix .navbar-collapse{
-   width: 100%;
-   background-color: rgba(214,214,214, .5);
+.affix .navbar-collapse {
+width: 100%;
+background-color: rgba(214,214,214, .9);
 }
 .affix .navbar-nav > li:hover{
    transition: background-color .5s ease;
@@ -234,7 +234,10 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 .navbar-nav>li {
 margin-right: 3%;
 }
-
+ .affix .navbar-collapse{
+   width: 100%;
+   background-color: rgba(214,214,214, .5);
+}
 .navbar-header{
    display: none;
 }
