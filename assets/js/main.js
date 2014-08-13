@@ -24,9 +24,9 @@ var Roots = {
     init: function() {
       // JavaScript to be fired on all pages
       //make navbar float at top
-      if (!$('img').has_class('no-responsive')) {
-        $(this).addClass('img-responsive');
-      };
+
+        $('.content>img').addClass('img-responsive');
+
       //affix nav stuff
       function affixnav(){
 
