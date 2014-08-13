@@ -297,6 +297,7 @@ padding: 10px 15px;
 }
 form#searchform {
 width: initial;
+padding: 10px 0;
 }
 input#s {
 width: initial;
