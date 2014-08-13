@@ -242,6 +242,7 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 @media (min-width: 768px) {
 .navbar-nav>li {
 margin-right: 3%;
+padding: 10px 0;
 }
  .affix .navbar-collapse{
    width: 100%;
@@ -251,7 +252,7 @@ margin-right: 3%;
    display: none;
 }
 .header-img {
-width: 45%;
+width: 50%;
 margin: 0px auto;
 }
 #social-may{
