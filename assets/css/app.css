@@ -41,6 +41,13 @@ img.size-full{
    width: 100%;
    height: auto;
 }
+a{
+   color: #4F9491;
+   transition: color ease .7s;
+   -webkit-transition: color ease .7s;
+   -moz-transition: color ease .7s;
+   -o-transition: color ease .7s;
+}
 /* ==========================================================================
    Header
    ========================================================================== */
