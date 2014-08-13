@@ -25,7 +25,6 @@ var Roots = {
       // JavaScript to be fired on all pages
       //make navbar float at top
 
-        $('.content>img').addClass('img-responsive');
 
       //affix nav stuff
       function affixnav(){
