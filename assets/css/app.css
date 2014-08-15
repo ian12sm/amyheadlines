@@ -45,6 +45,9 @@ img.size-full{
    width: 100%;
    height: auto;
 }
+.home .page-header{
+   display: none;
+}
 a{
    color: #4F9491;
    transition: color ease .7s;
