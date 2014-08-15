@@ -88,9 +88,9 @@ font-size: 20px;
 .affix{
    transition: top .7s ease;
    top: 0;
-   margin-left: 6%;
-   margin-top: 33px;
    width: 100%;
+   background: #fff;
+   margin: 0px auto;
 }
 .affix .navbar-nav{
    width: 78%;
@@ -98,7 +98,7 @@ font-size: 20px;
 }
 .affix .navbar-collapse {
 width: 100%;
-background-color: rgba(214,214,214, .9);
+background-color: #fff;
 }
 .affix .navbar-nav > li:hover{
    transition: background-color .5s ease;
@@ -252,6 +252,7 @@ margin-right: 3%;
 padding: 10px 0;
 }
  .affix .navbar-collapse{
+
    width: 100%;
    background-color: rgba(214,214,214, .5);
 }
@@ -290,8 +291,9 @@ input#s {
 width: 45%;
 }
 .affix{
-   width: initial;
- }
+   margin-top: 33px;
+}
+}
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
