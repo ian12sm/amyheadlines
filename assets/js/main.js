@@ -52,6 +52,14 @@ $('.affix-wrapper').affix({
   home: {
     init: function() {
       // JavaScript to be fired on the home page
+      //Disqus comment count
+      var disqus_shortname = 'amyheadlines';
+      var s = document.createElement('script'); s.async = true;
+      s.type = 'text/javascript';
+      s.src = 'http://' + disqus_shortname + '.disqus.com/count.js';
+      (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
+      }());
+
     }
   },
   // About us page, note the change from about-us to about_us.
