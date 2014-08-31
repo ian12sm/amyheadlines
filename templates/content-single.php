@@ -6,7 +6,7 @@
     </header>
     <div class="entry-content">
     <div class="post-img">
-    <?php the_post_thumbnail(large, array( 'class' => "img-responsive attachment-post-thumbnail")); ?> 
+    <?php the_post_thumbnail(large, array( 'class' => "img-responsive attachment-post-thumbnail")); ?>
   </div>
       <?php the_content(); ?>
     </div>
