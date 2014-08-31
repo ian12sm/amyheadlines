@@ -14,7 +14,7 @@
   <?php if( $wp_query->current_post == 0 && !is_paged() ) {
   	the_content();
     $withcomments = true;
-    comments_template('/templates/comments.php');
+    disqus_embed('amyheadlines');
   }
   else{
 	the_excerpt();
