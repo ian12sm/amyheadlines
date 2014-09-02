@@ -5,10 +5,11 @@
 	$category = get_the_category($post_id);
 	foreach((get_the_category()) as $category){
 		echo "<h3>" . $category->cat_name ."</h3>";
+		$cat_id = $category->cat_ID;
 		$args = array(
 		'posts_per_page'   => 3,
 		'offset'           => 0,
-		'category'         => $category,
+		'category'         => $cat_id,
 		'orderby'          => 'post_date',
 		'order'            => 'DESC',
 		'include'          => '',
