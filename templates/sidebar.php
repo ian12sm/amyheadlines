@@ -8,7 +8,7 @@
 		$args = array(
 		'posts_per_page'   => 3,
 		'offset'           => 0,
-		'category'         => '$category',
+		'category'         => $category,
 		'orderby'          => 'post_date',
 		'order'            => 'DESC',
 		'include'          => '',
