@@ -11,6 +11,7 @@
       <?php the_content(); ?>
     </div>
     <footer>
+    <?php get_template_part('/templates/content-mail-signup.php'); ?>
       <?php wp_link_pages(array('before' => '<nav class="page-nav"><p>' . __('Pages:', 'roots'), 'after' => '</p></nav>')); ?>
     </footer>
     <?php comments_template('/templates/comments.php'); ?>
