@@ -223,6 +223,7 @@ margin-right: 26px!important;
 .credits {
 font-size: 14px;
 text-align: center;
+clear: both;
 }
 .page-template-template-maintenance-php #menu-social-navigation {
 display: none;
