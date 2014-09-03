@@ -60,6 +60,13 @@ h3{font-size: 28px;}
 div#mc_embed_signup {
 margin-bottom: 50px;
 }
+.sidebar, .sidebar h3 {
+text-align: center;
+}
+.sidebar li {
+list-style: none;
+font-size: 18px;
+}
 /* ==========================================================================
    Header
    ========================================================================== */
