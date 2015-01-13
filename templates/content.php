@@ -11,13 +11,9 @@
   	<?php the_post_thumbnail(large, array( 'class' => "img-responsive attachment-post-thumbnail")); ?>
   </div>
   <div class="entry-summary">
-  <?php if( $wp_query->current_post == 0 && !is_paged() ) {
+  <?php
   	the_content();
     disqus_embed('amyheadlines');
-  }
-  else{
-	the_excerpt();
-	}
 	?>
   </div>
 </article>
