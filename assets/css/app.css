@@ -265,7 +265,6 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 padding: 10px 0;
 }
  .affix .navbar-collapse{
-
    width: 100%;
    background-color: rgba(214,214,214, .5);
 }
@@ -291,7 +290,7 @@ font-size: 64px;
    margin-left: 25px;
 }
 .navbar-nav {
-width: 76%;
+width: 72%;
 }
 .nav>li>a {
 padding: 10px 5px;
@@ -317,6 +316,9 @@ clear: none!important;
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
+   .navbar-nav {
+      width: 76%;
+   }
 #social-may ul {
 margin: 0 auto;
 }
