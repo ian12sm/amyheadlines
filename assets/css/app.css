@@ -18,7 +18,7 @@ h1,h2,h3,h4,h5,p,a,label{
   height: auto;
 }
 p {
-font-size: 20px;
+font-size: 16px;
 letter-spacing: 1px;
 word-spacing: 1px;
 font-weight: 500;
@@ -311,6 +311,9 @@ input#mce-EMAIL {
 input#mc-embedded-subscribe {
 float: right;
 clear: none!important;
+}
+p{
+   font-size: 20px;
 }
 }
 
