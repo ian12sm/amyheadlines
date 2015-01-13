@@ -316,9 +316,7 @@ clear: none!important;
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-   .navbar-nav {
-      width: 76%;
-   }
+   
 #social-may ul {
 margin: 0 auto;
 }
@@ -336,4 +334,8 @@ width: initial;
  }
 
 /* Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) { }
+@media (min-width: 1200px) {
+   .navbar-nav {
+      width: 76%;
+   }
+ }
