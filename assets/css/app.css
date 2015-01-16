@@ -158,8 +158,8 @@ padding: 5px;
    width: 100%;
 }
 .thumb-overlay h1 {
-   margin: 50px 15px;
-   font-size: 44px;
+   margin-top: -5px;
+   font-size: 34px;
 }
 /* ==========================================================================
    Maintenance
@@ -272,7 +272,10 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-   
+   .card-container {
+      min-height: 425px;
+      background: #eee;
+   }
 .navbar-nav>li {
 padding: 10px 0;
 }
@@ -350,6 +353,10 @@ width: initial;
 
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
+   .card-container {
+   min-height: 1px;
+   background: transparent;
+   }
    .thumb-overlay{
       position: absolute;
       top: 0px;
