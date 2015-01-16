@@ -152,11 +152,15 @@ padding: 5px;
    margin: 5px 0px;
 }
 .cat-img-grid div[class^="col"]{padding-left:5px; padding-right:5px;}
-   .thumb-overlay{
-      background: #eee;
-      text-align: center;
-      width: 100%;
-   }
+.thumb-overlay{
+   background: #eee;
+   text-align: center;
+   width: 100%;
+}
+.thumb-overlay h1 {
+   margin: 50px 15px;
+   font-size: 44px;
+}
 /* ==========================================================================
    Maintenance
    ========================================================================== */
@@ -346,7 +350,6 @@ width: initial;
 
 /* Large devices (large desktops, 1200px and up) */
 @media (min-width: 1200px) {
-   .cat-img-grid div[class^="col"]{padding-left:5px; padding-right:5px;}
    .thumb-overlay{
       position: absolute;
       top: 0px;
@@ -362,7 +365,6 @@ width: initial;
    }
    .thumb-overlay h1 {
       margin: 50px 15px;
-      font-size: 44px;
    }
    .thumb-overlay:hover{
       opacity: .7;
