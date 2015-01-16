@@ -151,7 +151,12 @@ padding: 5px;
    padding-bottom: 133%;
    margin: 5px 0px;
 }
-
+.cat-img-grid div[class^="col"]{padding-left:5px; padding-right:5px;}
+   .thumb-overlay{
+      background: #eee;
+      text-align: center;
+      width: 100%;
+   }
 /* ==========================================================================
    Maintenance
    ========================================================================== */
@@ -267,28 +272,7 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-   .cat-img-grid div[class^="col"]{padding-left:5px; padding-right:5px;}
-   .thumb-overlay{
-      position: absolute;
-      top: 0px;
-      background: #eee;
-      text-align: center;
-      opacity: 0;
-      width: 100%;
-      height: 100%;
-      transition: opacity ease .3s;
-   }
-   .card-container {
-      position: relative;
-   }
-   .thumb-overlay h1 {
-      margin: 25px 15px;
-      font-size: 44px;
-   }
-   .thumb-overlay:hover{
-      opacity: .7;
-      transition: opacity ease .3s;
-   }
+   
 .navbar-nav>li {
 padding: 10px 0;
 }
@@ -347,7 +331,28 @@ p{
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-   
+ .cat-img-grid div[class^="col"]{padding-left:5px; padding-right:5px;}
+   .thumb-overlay{
+      position: absolute;
+      top: 0px;
+      background: #eee;
+      text-align: center;
+      opacity: 0;
+      width: 100%;
+      height: 100%;
+      transition: opacity ease .3s;
+   }
+   .card-container {
+      position: relative;
+   }
+   .thumb-overlay h1 {
+      margin: 50px 15px;
+      font-size: 44px;
+   }
+   .thumb-overlay:hover{
+      opacity: .7;
+      transition: opacity ease .3s;
+   }  
 #social-may ul {
 margin: 0 auto;
 }
