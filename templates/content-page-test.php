@@ -11,11 +11,13 @@
 
 	while ($posts_array->have_posts()) : $posts_array->the_post(); ?>
 		<div class="col-sm-3">
-			<div class="img-lq thumb-card">
-			<?php the_post_thumbnail('medium'); ?> 
-			</div>
-			<div class="thumb-overlay">
-				<h2><?php the_title(); ?></h2>
+			<div class="card-container">
+				<div class="img-lq thumb-card">
+				<?php the_post_thumbnail('medium'); ?> 
+				</div>
+				<div class="thumb-overlay">
+					<h2><?php the_title(); ?></h2>
+				</div>
 			</div>
 		</div>
 	<?php endwhile; ?>
