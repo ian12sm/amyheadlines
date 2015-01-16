@@ -2,7 +2,7 @@
 <?php 
 	$args = array(
         'post_type' => 'post'
-        'category_slug' => 'inspiration'
+        'category_name' => 'inspiration'
     );
 
     $post_query = new WP_Query($args);
