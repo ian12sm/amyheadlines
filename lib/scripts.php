@@ -37,7 +37,7 @@ function roots_scripts() {
   wp_enqueue_script('bootstrap');
   wp_enqueue_script('roots_activate');
 }
-//add_action('wp_enqueue_scripts', 'roots_scripts', 100);
+add_action('wp_enqueue_scripts', 'roots_scripts', 100);
 
 // http://wordpress.stackexchange.com/a/12450
 function roots_jquery_local_fallback($src, $handle = null) {
