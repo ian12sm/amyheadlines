@@ -272,7 +272,7 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
       top: 0px;
       background: #eee;
       text-align: center;
-      /*opacity: 0;*/
+      opacity: 0;
       width: 100%;
       padding-bottom: 133%;
       transition: opacity ease .3s;
