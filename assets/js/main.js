@@ -24,6 +24,7 @@ var Roots = {
     init: function() {
       // JavaScript to be fired on all pages
       //make navbar float at top
+      $('.img-lq').imgLiquid();
 
 
       //affix nav stuff
