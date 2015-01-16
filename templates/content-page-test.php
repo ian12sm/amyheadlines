@@ -14,6 +14,9 @@
 			<div class="img-lq thumb-card">
 			<?php the_post_thumbnail('medium'); ?> 
 			</div>
+			<div class="thumb-overlay">
+				<h2><?php the_title(); ?></h2>
+			</div>
 		</div>
 	<?php endwhile; ?>
 </div>

@@ -146,11 +146,12 @@ margin-right: 10px;
 background-color: rgba(214,214,214, .9);
 padding: 5px;
 }
-   .thumb-card {
+.thumb-card {
    width: 100%;
    padding-bottom: 133%;
    margin: 15px 0px;
 }
+
 /* ==========================================================================
    Maintenance
    ========================================================================== */
@@ -266,6 +267,16 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+   .thumb-overlay{
+      /*opacity: 0;*/
+      width: 100%;
+      padding-bottom: 133%;
+      transition: opacity ease .3s;
+   }
+   .thumb-overlay:hover{
+      opacity: .7;
+      transition: opacity ease .3s;
+   }
 .navbar-nav>li {
 padding: 10px 0;
 }
