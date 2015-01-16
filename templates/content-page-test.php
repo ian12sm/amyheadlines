@@ -1,4 +1,4 @@
-<div class="row">
+<div class="row cat-img-grid">
 	<?php 
 	    $args = array(
 	              'post_type' => 'post',

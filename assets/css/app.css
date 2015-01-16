@@ -267,6 +267,7 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
 
 /* Small devices (tablets, 768px and up) */
 @media (min-width: 768px) {
+   .cat-img-grid div[class^="col"]{padding-left:5px; padding-right:5px;}
    .thumb-overlay{
       position: absolute;
       top: 0px;
