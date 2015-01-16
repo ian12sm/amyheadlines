@@ -277,6 +277,12 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
       padding-bottom: 133%;
       transition: opacity ease .3s;
    }
+   .card-container {
+      position: relative;
+   }
+   .thumb-overlay h1 {
+      margin: 25px 15px;
+   }
    .thumb-overlay:hover{
       opacity: .7;
       transition: opacity ease .3s;
