@@ -274,7 +274,7 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
       text-align: center;
       opacity: 0;
       width: 100%;
-      padding-bottom: 133%;
+      height: 100%;
       transition: opacity ease .3s;
    }
    .card-container {
@@ -282,6 +282,7 @@ figure.alignnone { margin-left: 0; margin-right: 0; }
    }
    .thumb-overlay h1 {
       margin: 25px 15px;
+      font-size: 44px;
    }
    .thumb-overlay:hover{
       opacity: .7;
