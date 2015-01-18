@@ -10,7 +10,7 @@
 	    $posts_array = new WP_Query($args);
 
 	while ($posts_array->have_posts()) : $posts_array->the_post(); ?>
-		<div class="col-md-3 col-sm-4">
+		<div class="col-lg-3 col-sm-4">
 			<a href="<?php the_permalink(); ?>">
 				<div class="card-container">
 					<div class="img-lq thumb-card">
