@@ -334,7 +334,9 @@ p{
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
- 
+   .card-container {
+      min-height: 500px;
+   }
 #social-may ul {
 margin: 0 auto;
 }
