@@ -351,8 +351,8 @@ width: initial;
 }
  }
 
-/* Large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
+/* Large devices (large desktops, 1024px and up) */
+@media (min-width: 1024px) {
    .card-container {
    min-height: 1px;
    background: transparent;
