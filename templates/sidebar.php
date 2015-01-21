@@ -1,6 +1,6 @@
-<div class="hidden">
+
 	<?php dynamic_sidebar('sidebar-primary'); ?>
-</div>
+
 <h2>Related Posts</h2>
 <?php
 	$post_id = get_the_ID();
