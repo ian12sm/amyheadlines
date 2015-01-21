@@ -1,7 +1,7 @@
 <div class="row cat-img-grid">
 	<?php
 	while (have_posts()) : the_post(); ?>
-		<div class="col-lg-3 col-sm-4">
+		<div class="col-lg-4 col-sm-6">
 			<a href="<?php the_permalink(); ?>">
 				<div class="card-container">
 					<div class="img-lq thumb-card">
